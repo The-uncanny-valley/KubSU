@@ -1,9 +1,7 @@
-// Lab-1-semester-1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <cmath>
 
-// 1 �������
+// lab 1 task 1
 int main()
 {
     double x, y, z, a, b, c, s;
