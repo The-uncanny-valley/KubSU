@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-// 1 задание
+// 1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 int main()
 {
     double x, y, z, a, b, c, s;
@@ -20,41 +20,3 @@ int main()
     std::cout << "Result s=" << s << std::endl;
 }
 
-/* 17 задание
-int main()
-{
-    double x, y, z, a, b, c, s;
-    std::cout << "x:";
-    std::cin >> x;
-    std::cout << "y:";
-    std::cin >> y;
-    std::cout << "z:";
-    std::cin >> z;
-    a = y + pow(x - 1, 1 / 3.0);
-    b = pow(a, 1 / 4.0);
-    c = fabs(x - y) * (sin(z) * sin(z) + tan(z));
-    s = b / c;
-    std::cout << "Result s=" << s << std::endl;
-}
-
-// 2 задание
-/*
-using namespace std;
-
-int main()
-{
-    double x, y, z, a, b, c, s;
-    cout << "x:";
-    cin >> x;
-    cout << "y:";
-    cin >> y;
-    cout << "z:";
-    cin >> z;
-    a = pow(9 + pow(x - y, 2), 1 / 3.0);
-    b = x * x + y * y + 2;
-    c = exp(fabs(x - y)) * pow(tan(z), 3);
-    s = a / b - c;
-    cout << s << endl;
-    return 0;
-}
-*/
