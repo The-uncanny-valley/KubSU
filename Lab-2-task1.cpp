@@ -16,19 +16,15 @@ int main()
         case 3: f = exp(x); break;
         default: cout << "Function not chosen"; return 1;
     }
-    a = fabs(x * y);
-    if (a < 5) {
-        cout << "No result" << endl;
-        return 1;
+    a = x * y;
+    if (a > 0) {
+        s = pow(x + y, 2.0) - pow(fabs(f), 1 / 3.0);
     }
-    else if (a > 10) {
-        s = fabs(f) + log(y);
+    else if (a < 0) {
+        s = pow(f + y, 2.0) + sin(x);
     }
-    else if (a <= 10 && a > 5) {
-        s = exp(f + y);
-    }
-    else {
-        s = sin(x) + tan(y);
+    else if (a == 0) {
+        s = pow(f + y, 2.0) + pow(y, 3.0);
     }
     cout << "result = " << s << endl;
     
